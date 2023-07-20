@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encuesta Fútbol Uruguayo</title>
+    <link rel="stylesheet" href="css/styles.css">
+    </head>
+  <body>
+    <div class="formulario">
+
+      <h1 id="title">Encuesta Fútbol Uruguayo</h1> 
+    <p id="description">Gracias por aydarnos a mejorar</p>
+    <form id="survey-form">
+      <fieldset>
+        <label for="name" id="name-label" >Nombre: <input id="name" name="name" type="text" placeholder="Ingresa tu nombre" required /></label>
+        <label for="email" id="email-label" >Email: <input id="email" name="email" type="email" placeholder="Ingresa tu Email" required /></label>
+        <label for="number" id="number-label" >Edad: <input id="number" name="number" type="number" min="14" max="115" placeholder="Edad" required /></label>
+        <label for="dropdown" name="dropdown">Ocupación
+        <select id="dropdown" name="dropdown">
+          <option value="">Elige una</option>
+          <option value="1">Estudiante</option>
+          <option value="2">Empleado/a
+            <option value="3">Autonomo</option>
+          </option>
+          <option value="4">Prefiero no contestar</option>
+          <option value="5">Otra</option>
+          </select>
+          </label>
+       </fieldset>
+         <fieldset>
+      <p class="paragrafo">Recomendaria el futbol uruguayo a un extranjero?</p>
+      <label for="definitivamente"><input id="definitivamente" type="radio" name="recommend-type" class="inline" value="6" /> Definitivamente</label>
+      <label for="lo-pensaria"><input id="lo-pensaria" type="radio" name="recommend-type" class="inline" value="7" /> Lo pensaría</label>
+       <label for="no-lo-haria"><input id="no-lo-haria" type="radio" name="recommend-type" class="inline" value="8" /> No lo haria</label>
+        <label for="no-lo-se"><input id="no-lo-se" type="radio" name="recommend-type" class="inline" value="9" /> No lo sé</label>
+      </fieldset>
+      <fieldset>
+     <label for="dropdown2" name="dropdown2">Que es lo mas positivo del fútbol uruguayo?
+        <select id="dropdown2" name="dropdown2">
+          <option value="">Elige una</option>
+          <option value="10">Su calidad</option>
+          <option value="11">La pasión con la que se vive
+            <option value="12">Las hinchadas</option>
+          </option>
+          <option value="13">Tu equipo</option>
+          <option value="14">No me interesa el fútbol</option>
+          </select>
+          </label>
+         <p class="paragrafo">Que crees que el fútbol uruguayo tiene que mejorar?</p>
+           
+        <label for="los-estadios" name="cajas">
+          <input id="los-estadios" type="checkbox" name="cajas" class="enlinea" value="15" />Los estadios
+          </label>
+        <label for="las-transmisiones" name="cajas">
+             <input id="las-transmisiones" type="checkbox" name="cajas" class="enlinea" value="16" />Las transmisiones de tv
+          </label>
+        <label for="la-infraestructura" name="cajas">
+             <input id="la-infraestructura" type="checkbox" name="cajas" class="enlinea" value="17" />La infraestructura
+          </label>
+          <label for="la-seguridad" name="cajas">
+             <input id="la-seguridad" type="checkbox" name="cajas" class="enlinea" value="18" />La seguridad
+          </label>
+          <label for="las-canchas" name="cajas">
+             <input id="la-canchas" type="checkbox" name="cajas" class="enlinea" value="19" />Las canchas
+          </label>
+          <br>
+          <label for="com">Dejanos tus comentarios y/o sugerencias para mejorar nuestro fútbol
+          <textarea id="comentarios" name="com" rows="5" cols="30" placeholder="Escribe aquí tus comentarios y/o sugerencias..."></textarea>
+        </label>
+        </fieldset>
+        <input type="submit" value="Submit" id="submit" class="submit" />
+    </div>
+    </form>
+  </body>
+  
+  </html>

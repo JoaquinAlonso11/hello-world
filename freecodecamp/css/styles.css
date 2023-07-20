@@ -1,0 +1,129 @@
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #82B1FF;
+  color: #E3F2FD;
+  font-family: verdana;
+  background-image: url(https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  font-size: 16px;
+}
+
+h1, p {
+  text-align: center;
+
+}
+
+.formulario, .recommend {
+ background-color: #0D47A1;
+ opacity: 0.8;
+  width: 90%;
+  max-width: 500px;
+  border-width: 1px;
+    border-style: inset;
+    border-color: #0D47A1;
+   border-radius: 4px; 
+   padding: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  
+}
+fieldset {
+    border: none; /* Eliminamos el borde por defecto */
+    margin: 0; /* Eliminamos el margen por defecto */
+    padding: 0; /* Eliminamos el relleno por defecto */
+    border-bottom: 2px solid #82B1FF;
+  }
+  
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+
+  
+}
+input {
+  display: block;
+  margin: 10 auto;
+  width: 100%;
+
+}
+select, textarea {
+  display: block;
+  margin: 10 auto;
+  width: 100%;
+  border-radius: 4px;
+ }
+fieldset:last-of-type {
+  border-bottom: none;
+}
+.inline {
+  margin-top: 30px;
+width: unset;
+  margin: 0 2em 0rem 0;
+  vertical-align: left;
+  display: inline-block;
+}
+input[type=text] {
+  background-color: #0D47A1;
+  color: #E3F2FD;
+  border-color: #0D47A1;
+  border-radius: 4px
+}
+input[type=email] {
+  background-color: #0D47A1;
+  color: #E3F2FD;
+  border-color: #0D47A1;
+  border-radius: 4px
+}
+input[type=number] {
+  background-color: #0D47A1;
+  color: #E3F2FD;
+  border-color: #0D47A1;
+  border-radius: 4px
+}
+
+::placeholder {
+  color: #E3F2FD;
+  font-style: oblique;
+}
+.paragrafo {
+  font-size: 17;
+  text-align: left;
+
+
+}
+.enlinea {
+  margin-top: 30px;
+  width: unset;
+  margin: 0 2em 0rem 0;
+  vertical-align: left;
+  display: inline-block;
+
+}
+
+textarea {
+  background-color: #0D47A1;
+  resize: vertical;
+  color: #E3F2FD;
+
+}
+input[type="submit"] {
+   display: block;
+  width: 90%;
+  margin: 10 auto;
+  height: 1.5em;
+  font-size: 1.1rem;
+  background-color: #E3F2FD;
+  border-color: white;
+  min-width: 300px;
+  border-radius: 4px;
+  color: #0D47A1;
+}
+.submit {
+    display: block;
+    margin: 0 auto;
+}
