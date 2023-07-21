@@ -1,6 +1,6 @@
 body {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background-color: #82B1FF;
   color: #E3F2FD;
   font-family: verdana;
@@ -29,8 +29,9 @@ h1, p {
   margin-left: auto;
   margin-right: auto;
   margin-top: 25px;
-  
+  margin-bottom: 25px;
 }
+
 fieldset {
     border: none; /* Eliminamos el borde por defecto */
     margin: 0; /* Eliminamos el margen por defecto */
